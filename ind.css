@@ -1,0 +1,253 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+:root{
+  /* --themecolor: rgb(255, 50, 0); */
+  --themecolor1:rgb(5, 3, 97);
+  --themecolor: rgb(233, 222, 219);
+  
+}
+body {
+  background-color: var(--themecolor);
+  font-family: sans-serif;
+  height: 100vh;
+}
+.navbar {
+  border: 1px solid black;
+  background-color: var(--themecolor);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* for first navbar */
+.logo {
+  width: 250px;
+  height: 40px;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  position: relative;
+  top: 5px;
+  color:var(--themecolor1);
+  height: 40px;
+  font-weight: bolder;
+text-align: center;
+font-size: 28px;
+}
+
+.searchbox {
+  margin-right: 50px;
+  display: flex;
+  width: 800px;
+  border-radius: 10px;
+}
+input {
+  border-radius: 5px;
+  border: 2px solid black;
+  height: 36px;
+  width: 950px;
+  font-weight: bold;
+}
+.searchbox button {
+  border-radius: 5px;
+  background: white;
+}
+
+.searchbox img {
+  height: 35px;
+  width: 50px;
+}
+.loginbox {
+  display: flex;
+  justify-content: center; 
+  background-color: var(--themecolor);
+}
+.loginlogobox {
+  margin-top: 8px;
+  margin-right: 20px;
+  /* height: 20px;
+  width: 30px; */
+  background-color: var(--themecolor);
+}
+.loginimg {
+  border: none;
+background-color: var(--themecolor);
+
+}
+
+.head {
+  height: 12px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(43, 42, 42);
+  margin-left: 2.4px;
+}
+.body {
+  top: 2px;
+  position: relative;
+  z-index: 1;
+  height: 12px;
+  width: 25px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  background-color: black;
+}
+
+
+.cartimg img {
+  margin-right: 15px;
+  margin-top: 7px;
+  height: 30px;
+  width: 30px;
+}
+#cartimg {
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+/* for second navbar */
+.navEle a {
+  gap: 10px 20px;
+  text-decoration: dotted;
+}
+h1 {
+  margin-right: 30px;
+  margin-left: 30px;
+  display: inline;
+  text-transform: capitalize;
+  color: var(--themecolor1);
+}
+
+/* middle part */
+
+.middle {
+  display: flex;
+  background-size: cover;
+  justify-content: right;
+}
+.middle img {
+  height: 568px;
+  width: 1350px;
+}
+
+
+/* FOR CARTBOX */
+
+.cartbox {
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 10px;
+  display: flex;
+  background-color: var(--themecolor);
+  width: 110px;
+  height: 40px;
+  /* border: 3px solid rgb(14, 13, 13);    */
+  border-radius: 5px;
+  justify-content: right;
+}
+.categorylogobox {
+  height: 28px;
+  width: 28px;
+  /* background-color: rgb(245, 244, 225); */
+  background-color: var(--themecolor);
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.b1 {
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 5px;
+}
+.categorylogobox{
+  height: 35px;
+  width: 30px;
+  /* background-color: rgb(245, 244, 225); */
+  background-color: var(--themecolor);
+  display: inline-block;
+  
+    }
+    .categorybtn{
+      border: none;
+      background-color: var(--themecolor);
+    }
+    .l1{
+      height: 5px;
+      width: 30px;
+      margin-top: 3px;
+      background-color: black;
+      
+    }
+    .l2{
+      height: 5px;
+      width: 25px;
+      margin-top: 3px;
+      margin-left: 5px;
+      background-color: black;
+      
+    }
+    .l3{
+      height: 5px;
+      width: 20px;
+      margin-top: 3px;
+      margin-left: 10px;
+      background-color: black;
+      
+    }
+    
+
+.menubarbtn {
+  border: none;
+  background-color: var(--themecolor);
+  cursor: pointer;
+}
+/* FOR MENU BOX */
+
+.menubox {
+        
+display: none;
+background: rgb(196, 195, 195);
+
+width: 250px;
+height: 350px;
+
+position: absolute;
+top: 50px;
+}
+.welcomebox{
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+height: 50px;
+width: 250px;
+background-color: var(--themecolor);
+color: var(--themecolor1);
+font-size: 30px;
+}
+.menubox ul :hover {
+  color: var(--themecolor1);
+
+}
+.menubox ul li  {
+padding: 3px;
+margin-top: 2px;
+margin-left: 10px;
+font-size: 26px;
+font-weight: lighter;
+
+color: black;
+list-style: none;
+}
+

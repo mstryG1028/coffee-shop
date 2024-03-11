@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      background-color: rgb(245, 240, 238);
+    }
+    :root{
+  /* --themecolor: rgb(255, 50, 0); */
+  --themecolor1:rgb(5, 3, 97);
+  --themecolor: rgb(233, 222, 219);
+  
+}
+    .main {
+        border-radius: 10px;
+      
+      background: linear-gradient(rgb(245, 245, 167), skyblue);
+      height: 400px;
+      width: 400px;
+      border: 2px solid rgb(42, 11, 182);
+      text-align: center;
+      border-style: inset;
+      margin-left: 480px;
+      margin-top: 100px;
+    }
+    h1 {
+      text-align: center;
+      background: transparent;
+    }
+    .user {
+          background: transparent;
+      text-align: center;
+      font-size: 15px;
+      font-weight: bolder;
+      height: 30px;
+      width: 300px;
+      margin-top: 25px;
+      border-radius: 12px;
+      box-shadow: h-offset 2px 2px 0px #888888;
+      border-color: white;
+      color: black;
+    }
+    .check {
+        background: transparent;
+      margin-left: 10px;
+      margin-top: 20px;
+      display: inline-block;
+      font-weight: bolder;
+    }
+    .forgot {
+        background: transparent;
+      display: inline-block;
+      margin-left: 25px;
+      font-weight: bolder;
+      text-decoration: none;
+      width: 120px;
+      font-size: 16px;
+      text-decoration: double;
+      color: black;
+    }
+    forgot:hover {
+      color: blue;
+    }
+
+    .login {
+        background: transparent;
+      margin-top: 15px;
+    }
+
+    .btn {
+        background: transparent;
+      background-color: blue;
+      border-radius: 15px;
+      height: 30px;
+      width: 270px;
+      color: white;
+      font-weight: bolder;
+      font-size: 15px;
+    }
+    .last {
+        background: transparent;
+      margin-top: 15px;
+      margin-left: 50px;
+    }
+    h4 {
+        background: transparent;
+      text-transform: capitalize;
+      font-weight: bolder;
+      color: black;
+      text-decoration: none;
+      font-size: 15px;
+      display: inline-block;
+    }
+    h4:hover {
+      color: blue;
+    }
+    .registernowbtn{
+        background: transparent;
+        border: none;
+        
+    }
+  </style>
+  <body>
+    <div class="main">
+      <h1>login</h1>
+      <input class="user" type="text" placeholder="Username" />
+      <input class="user" id="user" type="password" placeholder="Password" />
+      <div class="check"><input type="checkbox" /> Remember me</div>
+      <div class="forgot">
+        <a class="forgot" href="#"><h4>forgot password?</h4></a>
+      </div>
+
+      <div class="login"><input class="btn" type="button" value="login" /></div>
+      <div class="last">
+        Don't have an id?
+<button class="registernowbtn" onclick="gotoregisterpage()"><h4>register now</h4></button>
+      </div>
+    </div>
+  </body>
+  <script>
+    function gotoregisterpage(){
+        window.open(url="registration form.html")
+    }
+    document.getElementbyId("user");
+    addEventListener("click", function (e) {
+      alert("button is clicked");
+    });
+  </script>
+</html>

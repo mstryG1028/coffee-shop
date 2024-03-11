@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ind.css" />
+    <style></style>
+  </head>
+  <body>
+    
+
+    <!-- first navbar -->
+    <div class="navbar" id="nav1">
+      <div class="logo"><h3>KM Furnuture</h3></div>
+      <div class="searchbox">
+        <input type="text" id="input" placeholder="search" />
+        <button class="searchbtn" id="btn"><img src="download.png" /></button>
+      </div>
+      <div class="loginbox">
+        <div class="cartimg" id="cartimg"><img src="cartlogo.png" /></div>
+        <div class="loginimg">
+          <button onclick="openloginpage()" class="loginimg">
+            <div class="loginlogobox">
+              <div class="head"></div>
+              <div class="body"></div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- second navbar -->
+    <div class="navbar" id="nav2">
+      <div class="navEle">
+        <a href="#"><h1>bedroom</h1></a>
+      </div>
+      <div class="navEle">
+        <a href="#"><h1>kitchen</h1></a>
+      </div>
+      <div class="navEle">
+        <a href="#"><h1>office</h1></a>
+      </div>
+      <div class="navEle">
+        <a href="#"><h1>hall</h1></a>
+      </div>
+    </div>
+
+    <!-- middle part -->
+    <div class="middle">
+        <div class="main">
+         <img src="tv unit.jpg">
+        </div>
+
+
+      <div class="cartbox">
+        <button  onclick="opencategory()" class="categorybtn" id="categorybtn">
+          <div class="categorylogobox" onclick="">
+            <div class="b1"></div>
+            <div class="b1"></div>
+            <div class="b1"></div>
+            <div class="b1"></div>
+          </div>
+        </button>
+
+        <button class="menubarbtn" id="menubarbtn" onclick="hide()">
+          <div class="categorylogobox" onclick="">
+            <div class="l1"></div>
+            <div class="l2"></div>
+            <div class="l3"></div>
+          
+          </div>
+        </button>
+        <div class="menubox" id="menubox">
+          <div class="welcomebox">Welcome!</div>
+          <ul>
+              <li><a>home</a></li>
+              <li><a>offers</a></li>
+              <li><a>favourites</a></li>
+              <li><a>orders</a></li>
+              <li><a>contact us</a></li>
+              <li><a>help</a></li>
+              <li><a>log out</a></li>
+              
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="in.js"></script>
+
+    <script></script>
+  </body>
+</html>

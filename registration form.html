@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      background: rgb(7, 22, 27);
+      font-family: sans-serif;
+      text-transform: capitalize;
+    }
+    header{
+      color: white;
+      font-size: 28px;
+      position: absolute;
+      left:630px ;
+      top: 30px;
+    }
+    .container {
+      border-radius: 10px;
+      background: linear-gradient(rgb(245, 245, 167), skyblue);
+      height: 500px;
+      width: 650px;
+      border: 2px solid black;
+      position: absolute;
+      left: 400px;
+      top: 80px;
+    }
+    h1 {
+      background: transparent;
+      font-size: 18px;
+      margin-top: 15px;
+      margin-left: 20px;
+    }
+    input {
+      background: transparent;
+      margin-left: 20px;
+      height: 40px;
+      width: 280px;
+      color: white;
+      border-radius: 7px;
+      display: inline-block;
+    }
+    .input1 {
+      margin-left: 20px;
+      height: 40px;
+      width: 300px;
+      color: white;
+      border-radius: 7px;
+      display: flex;
+    }
+    select {
+      background: transparent;
+      margin-left: 20px;
+      height: 40px;
+      width: 300px;
+      border: 2px solid;
+      border-radius: 7px;
+      font-size: 16px;
+      display: flex;
+    }
+    #submitbtn {
+      margin-top: 50px;
+      margin-left: 170px;
+      height: 40px;
+      width: 300px;
+      border-radius: 5px;
+      font-size: 17px;
+      font-weight: bolder;
+      background-color: bisque;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    #backtohomebtn{
+height: 30px;
+border: 2px solid;
+background-color: brown;
+color: white;
+position: absolute;
+left: 500px;
+top: 450px;
+    }
+  </style>
+  <body>
+    <form>
+      <header>register here</header>
+      <div class="container">
+        <h1>enter your name:</h1>
+        <input id="name" type="text" placeholder="first name" />
+        <input id="name" type="text" placeholder="last name" />
+        <h1>mobile no:</h1>
+
+        <input
+          class="input1"
+          id="number"
+          type="number"
+          placeholder="phone number"
+        />
+        <h1>enter email:</h1>
+        <input class="input1" id="email" type="email" placeholder="email" />
+        <h1>select country:</h1>
+        <select>
+          <option>select your country</option>
+          <option>india</option>
+          <option>america</option>
+          <option>india</option>
+          <option>america</option>
+          <option>india</option>
+          <option>america</option>
+        </select>
+
+        <button id="submitbtn" onclick="returnhome()">submit</button>
+        <button id="backtohomebtn" onclick="returnhome()"> <--- back to home </button>
+      </div>
+    </form>
+    <script>
+      function returnhome(){
+        window.open(url="index.html")
+      }
+    </script>
+  </body>
+</html>
